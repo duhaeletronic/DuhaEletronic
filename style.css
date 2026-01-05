@@ -12,7 +12,7 @@ body {
 
 /* HEADER */
 header {
-  background: #000;
+  background-image: url=("fotosampul.png");
   color: #fff;
   text-align: center;
   padding: 25px;
