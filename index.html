@@ -2,60 +2,63 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>DuhaElektronic</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DuhaElectronic | Service Elektronik</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<!-- HEADER -->
 <header>
-  <h1>DuhaElektronik</h1>
-  <p>Solusi Elektronic Dan Audio Anda</p>
-  <a class="btn" href="#layanan">Pesan Sekarang</a>
+  <h1>DuhaElectronic</h1>
+  <p>Service Electronic Profesional</p>
 </header>
 
-<section id="tentang">
-  <h2>Tentang Kami</h2>
+<!-- NAV -->
+<nav>
+  <a href="#layanan">Layanan</a>
+  <a href="#maps">Lokasi</a>
+  <a href="#kontak">Kontak</a>
+</nav>
+
+<!-- LAYANAN -->
+<section id="layanan" class="container">
+  <div class="card">🔧 Servis Speaker Aktif & Pasif</div>
+  <div class="card">⚡ Servis Power Amplifier</div>
+  <div class="card">🧰 Jual Komponen Elektronik</div>
+  <div class="card">🏠 Servis Eletronic Lainnya</div>
+</section>
+
+<!-- DESKRIPSI GOOGLE MAPS -->
+<section class="desc">
+  <h2>Service Elektronik Terpercaya</h2>
   <p>
-    DuhaElektronik melayani jasa dan penjualan kebutuhan elektronik seperti
-    instalasi listrik, CCTV, perbaikan dan pengadaan perangkat elektronik
-    dengan pelayanan cepat dan terpercaya.
+    DuhaElectronic melayani servis speaker, power amplifier,
+    penjualan komponen elektronik, dan servis Eletronic lainnya.
+    cepat, dan bergaransi.
   </p>
 </section>
 
-<section id="layanan">
-  <h2>Layanan Kami</h2>
-
-  <div class="card">
-    <h3>Rakit Amplifier</h3>
-    <p>perakitan untuk kebutuhan rumah anda uprade kebutuhan audio anda</p>
-    <button onclick="order('Rakit Amplifier')">Order via WhatsApp</button>
-  </div>
-
-  <div class="card">
-    <h3>Servis Speaker Aktif/Pasif</h3>
-    <p>Perbaikan Speaker Aktif/Pasif Anda yang rusak Siap melayani berbagai permasalahan dan Solusi</p>
-    <button onclick="order('Servis Speaker')">Order via WhatsApp</button>
-  </div>
-
-  <div class="card">
-    <h3>Service Elektronik</h3>
-    <p>Perbaikan alat elektronik rumah tangga anda berbagai Jenis termasuk Mesin cuci, Magicom, kipas, Dll</p>
-    <button onclick="order('Service Elektronik')">Order via WhatsApp</button>
-  </div>
-
+<!-- GOOGLE MAPS -->
+<section id="maps" class="maps">
+  <iframe
+    src="https://www.google.com/maps?q=Indonesia&output=embed"
+    allowfullscreen=""
+    loading="lazy">
+  </iframe>
 </section>
 
-<section id="kontak">
-  <h2>Kontak</h2>
-  <p>📞 WhatsApp: 0895329417202</p>
-  <p>📍 Melayani area sekitar Anda</p>
-</section>
-
-<footer>
-  <p>© 2026 DuhaElektronik</p>
+<!-- FOOTER -->
+<footer id="kontak">
+  <p>📍 Melayani area sekitar</p>
+  <p>📲 WhatsApp: 0895329417202</p>
+  <p>© 2026 DuhaElectronic</p>
 </footer>
 
-<script src="script.js"></script>
+<!-- TOMBOL WA MENGAMBANG -->
+<a href="https://wa.me/62895329417202" class="wa-float" target="_blank">
+  💬
+</a>
+
 </body>
 </html>
